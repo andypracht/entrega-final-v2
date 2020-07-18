@@ -1,9 +1,23 @@
         @import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Oswald&display=swap');
         @import './_variables.scss';
+        .bgEnter {
+            background-image: url(../../img/img1.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .glow {
+            box-shadow: 0.2rem 0.2rem #fff;
+        }
+        
         h1,
         h3,
         .card-title {
             font-family: $fontTitulos;
+        }
+        
+        .cardSpace {
             margin-top: 1.5rem;
         }
         
@@ -34,7 +48,7 @@
         }
         
         .notiCard:hover .notiImg {
-            webkit-filter: blur(4px);
+            --webkit-filter: blur(4px);
             filter: blur(4px);
         }
         
@@ -70,7 +84,7 @@
         .placeList {
             list-style-type: none;
             column-count: 2;
-            padding-top: 2rem;
+            margin-top: 2rem;
         }
         
         @import './queries.scss';

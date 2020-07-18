@@ -9,6 +9,11 @@
     #logo {
         height: 4rem;
     }
+    .bgEnter {
+        background-image: url(../../img/img1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
 
 @media only screen and (min-width:0px) and (max-width:500px) {
